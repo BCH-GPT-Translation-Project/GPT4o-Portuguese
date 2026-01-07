@@ -1,15 +1,16 @@
-# GPT4o-Spanish
+# GPT4o-Portuguese
 
-_Evaluating a Large Language Model in Translating Patient Instructions to Spanish Using a Standardized Framework_
-[doi:10.1001/jamapediatrics.2025.1729](http://doi.org/10.1001/jamapediatrics.2025.1729)
+This is an extension of our previously published work: _Evaluating a Large Language Model in Translating Patient Instructions to Spanish Using a Standardized Framework_ [doi:10.1001/jamapediatrics.2025.1729](http://doi.org/10.1001/jamapediatrics.2025.1729)
+
+This Portuguese-specific work is currently in the publishing process.
 
 Authors:  
-Mondira Ray, MD, MBI*; Daniel J. Kats, MD, MBI*; Joss Moorkens, PhD; Dinesh Rai, MD; Nate Shaar; Diane Quinones, MS, RN, CPNP; Alejandro Vermeulen, BFA, CMI; Camila M. Mateo, MD, MPH; Ryan C. L. Brewster, MD; Alisa Khan, MD, MPH; Benjamin Rader, PhD; John S. Brownstein, PhD; Jonathan D. Hron, MD  
+Daniel J. Kats, MD; Mondira Ray, MD, MBI; Joss Moorkens, PhD; Dinesh Rai, MD; Nate Shaar; Diane Quinones, MS, RN, CPNP; Alejandro Vermeulen, BFA, CMI; Camila M. Mateo, MD, MPH; Ryan C. L. Brewster, MD; Alisa Khan, MD, MPH; Benjamin Rader, PhD; John S. Brownstein, PhD; Jonathan D. Hron, MD  
 *Contributed equally as first-authors
 
 Corresponding authors:  
-Mondira Ray, MD: mondira.ray@childrens.harvard.edu  
 Daniel J. Kats, MD: daniel.kats@childrens.harvard.edu
+Mondira Ray, MD: mondira.ray@childrens.harvard.edu  
 
 
 ## Prerequisites
@@ -44,9 +45,9 @@ R package versions are as follows:
     | LL ID | Target Language | Word Count | Whole or Partial | HT | GPT | GPT Date | HT EWC | GPT EWC |
     | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
     | *Translation ID* | *Target Language* | *Source Document Word Count* | *Whole or Partial* | *Human Translation ID* | *GPT Translation ID* | *GPT Date* | *Human Translation Word Count* | *GPT Translation Word Count* |
-    | translation001 | Spanish | 343 | Whole | T1 | T2 | 20240802 | 365 | 348 |
-    | translation002 | Spanish | 366 | Partial | T2 | T1 | 20240802 | 389 | 376 |
-    | translation003 | Spanish | 752 | Whole | T1 | T2 | 20240802 | 781 | 749 |
+    | translation001 | Portuguese | 343 | Whole | T1 | T2 | 20240802 | 365 | 348 |
+    | translation002 | Portuguese | 366 | Partial | T2 | T1 | 20240802 | 389 | 376 |
+    | translation003 | Portuguese | 752 | Whole | T1 | T2 | 20240802 | 781 | 749 |
   
 ### MQM Evaluations
 * Perform MQM evaluations and fill out a scorecard (provided in the publication's Supplementary Materials) for each evaluated translation
